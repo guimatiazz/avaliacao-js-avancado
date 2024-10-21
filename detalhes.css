@@ -1,0 +1,135 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body{
+    background-image: url("img/KEV00900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+.vazio{
+    width: 150px;
+    height: auto;
+}
+
+.produtos1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+
+#h2-maior{
+    font-size: 3rem;
+    color: white;
+}
+
+#email{
+    width: 290px;
+    height: 50px;
+    margin-top: 15px;
+    border: solid 2px rgba(0, 0, 0, 0.973);
+    border-radius: 10px;
+}
+
+.termos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: -20px;
+   
+}
+
+#cbox{
+    height: 20px;
+    width: 30px;
+    margin-right: 0px;
+}
+
+.lable{
+    height: 30px;
+}
+
+#Enviar{
+    width: 150px;
+    height: 50px;
+    border: solid 2px rgba(0, 0, 0, 0.973);
+    border-radius: 10px;
+
+}
+
+.linkbarra {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+#comprar{
+    width: 150px;
+    height: 50px;
+    border: solid 2px rgba(97, 5, 5, 0.973);
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.produtos2 img{
+    width: 600px;
+    height: 460px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+
+img:hover{
+    scale: 1.05;
+    transition: 1s;
+    
+}
+
+.produtos2{
+    display: flex;
+    width: 1270px;
+    height: 580px;
+    border: solid 3px rgba(0, 0, 0, 0.973);
+    border-radius: 10px;
+    background-color:rgba(97, 5, 5, 0.973);
+}
+
+#letra{
+    color: rgba(219, 26, 26, 0.973);
+
+}
+
+p{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+

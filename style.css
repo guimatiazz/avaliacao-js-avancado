@@ -1,0 +1,101 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body{
+    background-image: url("img/KEV00900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+nav h1{
+    text-shadow: 10px 10px 10px black;
+}
+
+main p{
+    text-shadow: 10px 10px 10px black;
+}
+
+.vazio{
+    width: 150px;
+    height: auto;
+}
+
+main{
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+
+
+}
+
+main .titulo{
+    font-size: 5rem;
+    text-shadow: 10px 10px 10px black;
+}
+
+main p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+main button{
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+     margin-left: 150px;
+     padding: 10px;
+     background: transparent;
+     outline: none;
+     color: white;
+     border: 5px solid white;
+     cursor: pointer;
+     transition: 0.7s;
+
+
+}
+
+main button:hover{
+    border: 5px solid  rgba(97, 5, 5, 0.973);
+    background-color:  rgba(97, 5, 5, 0.973);
+}
+
+main a{
+    text-decoration: none;
+}
+
+.letra{
+    color: rgba(219, 26, 26, 0.973);
+
+}
+
+.alert{
+    color: white;
+    background-color: black;
+    height: 150px;
+    width: 100vw;
+    margin-top: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
